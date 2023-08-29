@@ -4,12 +4,20 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Zaib Ali"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-08-29 11:59:51 pm"/>
+        <attribute name="saved" value="2023-08-30 12:24:21 am"/>
         <attribute name="created" value="WmFpYiBBbGk7UUFTSU07MjAyMy0wOC0yOTsxMTo1OToyNiBwbTsyNDM3"/>
-        <attribute name="edited" value="WmFpYiBBbGk7UUFTSU07MjAyMy0wOC0yOTsxMTo1OTo1MSBwbTsxOzI1NDM="/>
+        <attribute name="edited" value="WmFpYiBBbGk7UUFTSU07MjAyMy0wOC0zMDsxMjoyNDoyMSBhbTs0OzI1MTM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
-        <body/>
+        <body>
+            <declare name="S, T" type="Real" array="False" size=""/>
+            <output expression="&quot;input cover the distance&quot;" newline="True"/>
+            <input variable="S"/>
+            <output expression="&quot;input the time taken &quot;" newline="True"/>
+            <input variable="T"/>
+            <output expression="&quot;input the average speed&quot;" newline="True"/>
+            <output expression="S/T" newline="True"/>
+        </body>
     </function>
 </flowgorithm>
