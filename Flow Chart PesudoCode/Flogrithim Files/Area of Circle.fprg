@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Zaib Ali"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 11:56:46 pm"/>
+        <attribute name="created" value="WmFpYiBBbGk7UUFTSU07MjAyMy0wOC0yOTsxMTo0Nzo1NyBwbTsyNDM4"/>
+        <attribute name="edited" value="WmFpYiBBbGk7UUFTSU07MjAyMy0wOC0yOTsxMTo1Njo0NiBwbTsyOzI1NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Radi, P, AreaCircle" type="Real" array="False" size=""/>
+            <output expression="&quot;input the radius of circle&quot;" newline="True"/>
+            <input variable="Radi"/>
+            <assign variable="P" expression="3.1415"/>
+            <output expression="&quot;Area of the circle&quot;" newline="True"/>
+            <assign variable="AreaCircle" expression="P*radi*radi"/>
+            <output expression="AreaCircle" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
