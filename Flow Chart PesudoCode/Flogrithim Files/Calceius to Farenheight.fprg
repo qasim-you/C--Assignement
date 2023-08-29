@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Zaib Ali"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-30 12:35:25 am"/>
+        <attribute name="created" value="WmFpYiBBbGk7UUFTSU07MjAyMy0wOC0zMDsxMjoyNjo0MyBhbTsyNDA4"/>
+        <attribute name="edited" value="WmFpYiBBbGk7UUFTSU07MjAyMy0wOC0zMDsxMjozNToyNSBhbTsxOzI1MTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="C, F" type="Real" array="False" size=""/>
+            <output expression="&quot;Input the Celsius Temprature &quot;" newline="True"/>
+            <input variable="C"/>
+            <assign variable="F" expression="(C*9)/5 + 32"/>
+            <output expression="&quot;The Farenheight Temprature is &quot;" newline="True"/>
+            <output expression="F" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
